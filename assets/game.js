@@ -12,6 +12,14 @@ console.log(enemyNames);
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+// Game States
+// "WIN" - Player robot has defeated all enemy-robots
+//    * Fight all enemy-robots
+//    * Defeat each enemy-robot
+// "LOSE" - Player robot's health is zero or less
+for(var i = 0; i < enemyNames.length; i++) {
+  console.log(enemyNames[i]);
+}
 // fight function
 var fight = function() {
   // Alert players that they are starting the round
